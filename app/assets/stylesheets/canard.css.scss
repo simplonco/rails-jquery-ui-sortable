@@ -4,8 +4,9 @@
 
 .nom_canard {
 	list-style-type: none;
+		cursor: move;
 }
 
-.nom_canard li{
+.nom_canard_element{
 	margin-top: 10px;
 	}

@@ -30,8 +30,6 @@ puis ajouter au fichier application.js la ligne
 
 `//= require jquery.ui.all`
 
-C'est un peu le même problème avec l'utilisation de la fonction "sortable". Ryan Bates y passe une seconde et fini par : "Just as easy as that". C'est un piège. 
-
 Une fois jQuery UI installé, il faut modifier le fichier canard.js.coffee (dans app/assets/javascript) pour y implémenter cette fonction "sortable".
 
 Plus de précisions pour la syntaxe sur la page de [jQuery UI](http://jqueryui.com/sortable/)
