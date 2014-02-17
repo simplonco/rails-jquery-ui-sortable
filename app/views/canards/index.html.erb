@@ -1,0 +1,14 @@
+<h1>Comme des canards</h1>
+
+<ul id="canards">
+	<% @canards.each do |canard| %>
+		<div class="nom_canard">
+		  <%= content_tag_for :li, canard do %>
+		    <%= link_to h(canard.nom), canard %>
+		  <% end %>
+		</div>
+	<% end %>
+</ul>
+
+<%= link_to "Créer un canard", controller: "canards", action: "new" %>
+
