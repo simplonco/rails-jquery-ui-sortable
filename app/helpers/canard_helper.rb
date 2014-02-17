@@ -1,0 +1,2 @@
+module CanardHelper
+end
