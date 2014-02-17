@@ -1,6 +1,6 @@
 class CanardsController < ApplicationController
   def index
-  	@canards = Canard.all
+  	@canards = Canard.order("position")
   end
 
   def new
@@ -12,6 +12,13 @@ class CanardsController < ApplicationController
 	@canard.save
 	redirect_to canards_path
   end
+
+  def sort
+  	params[:canard].each_with_index do |id, index|
+  		Canard.update_all({position: index+1}, {id: id})
+  	end
+  	render nothing: true
+  end 
 
   private
  

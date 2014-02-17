@@ -1,12 +1,10 @@
 <h1>Comme des canards</h1>
 
-<ul id="canards">
+<ul id="canards" data-update-url="<%= sort_canards_url %>" class="nom_canard">
 	<% @canards.each do |canard| %>
-		<div class="nom_canard">
-		  <%= content_tag_for :li, canard do %>
+		  <%= content_tag_for :li, canard, class: 'nom_canard_element' do %>
 		    <%= link_to h(canard.nom), canard %>
 		  <% end %>
-		</div>
 	<% end %>
 </ul>
 

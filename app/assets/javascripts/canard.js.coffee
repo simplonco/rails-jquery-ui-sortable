@@ -2,5 +2,7 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
 jQuery ->
-	$('#canards').sortable();
-	axis: 'y'
+	$('#canards').sortable
+		axis: 'y'
+		update: ->
+			$.post($(this).data('update-url'), $(this).sortable('serialize'))

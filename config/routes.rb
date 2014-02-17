@@ -1,7 +1,9 @@
 SortableList::Application.routes.draw do
   root 'canards#index'
 
-  resources :canards
+  resources :canards do
+      collection { post :sort }
+  end
  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
