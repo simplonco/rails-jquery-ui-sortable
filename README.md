@@ -4,6 +4,7 @@ Permettre à un utilisateur de modifier l'ordre d'objets dans une liste. L'utili
 #Ressources
 Cette démo se base sur le RailsCast 147 revisited de Ryan Bates.
 (Attention : le tutoriel 147 initial utilise rails 1.9, ce qui le rend obsolète).
+[Cast révisé dipo](http://www.youtube.com/watch?v=kbqJAmuzohY)
 
 Partant du principe que les personnes intéressées regarderont cette vidéo, je ne vais pas détailler toutes les étapes. 
 
