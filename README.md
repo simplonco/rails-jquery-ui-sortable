@@ -1,4 +1,4 @@
-# rails-jquery-ui-sortable [![Build Status](https://travis-ci.org/simplonco/rails-i18n-heroku.svg?branch=master)](https://travis-ci.org/simplonco/rails-i18n-heroku)
+# rails-jquery-ui-sortable [![Build Status](https://travis-ci.org/simplonco/rails-jquery-ui-sortable.svg?branch=master)](https://travis-ci.org/simplonco/rails-jquery-ui-sortable)
 
 ## Objectif 
 Permettre à un utilisateur de modifier l'ordre d'objets dans une liste. L'utilisateur doit pouvoir drag and drop un élément, le mettre à une autre position, et cette action doit enregistrer la liste automatiquement. 
